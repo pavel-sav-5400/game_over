@@ -1,0 +1,14 @@
+.blockquote__text {
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  quotes: none;
+  margin: 0 0 42px;
+}
+
+.blockquote__text:after {
+  padding-left: 16px;
+  content: "\201d";
+  font-weight: 900;
+  color: #6C0287;
+}

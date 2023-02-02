@@ -1,0 +1,10 @@
+.blockquote__text-block {
+  display: block;
+}
+
+.blockquote__text-block:before {
+  margin-right: 16px;
+  content: "\201c";
+  font-weight: 900;
+  color: #6C0287;
+}

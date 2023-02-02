@@ -1,0 +1,25 @@
+@import url(global.css);
+@import url(index.css);
+@import url(blockquote/blockquote.css);
+@import url(blockquote/__text/blockquote__text.css);
+@import url(blockquote/__text-block/blockquote__text-block.css);
+@import url(blockquote/__cite/blockquote__cite.css);
+@import url(blockquote/__text-cite/blockquote__text-cite.css);
+@import url(contacts/_style/text_style_weigth-bold.css);
+@import url(contacts/_icon-contact/text_icon-contact.css);
+@import url(social/__link/social__link.css);
+@import url(social/__list/social__list.css);
+@import url(social/__item/social__item.css);
+@import url(desktop/__container/desktop__container.css);
+@import url(desktop/__subtitle/desktop__subtitle.css);
+@import url(desktop/__title/desktop__title.css);
+@import url(halls/__item/halls__item.css);
+@import url(halls/__list/halls__list.css);
+@import url(halls/__text/hall__text.css);
+@import url(halls/__title/halls__title.css);
+@import url(halls/_bg-image/halls__item_bg-image.css);
+@import url(faq/__item/faq__item.css);
+@import url(faq/__list/faq__list.css);
+@import url(faq/__title/faq__title.css);
+
+

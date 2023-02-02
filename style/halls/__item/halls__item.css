@@ -1,0 +1,15 @@
+.halls__item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 275px 0;
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.halls__item:last-child {
+  margin-bottom: 0;
+}

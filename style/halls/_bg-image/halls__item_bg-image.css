@@ -1,0 +1,15 @@
+.halls__item_bg-image_vibes {
+  background-image: url('../../../img/80s-vibes.png');
+}
+
+.halls__item_bg-image_starwars {
+  background-image: url('../../../img/star-wars.png');
+}
+
+.halls__item_bg-image_wildwest {
+  background-image: url('../../../img/wild-west.png');
+}
+
+.halls__item_bg-image_neonstyle {
+  background-image: url('../../../img/neon-style.png');
+}

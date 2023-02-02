@@ -1,0 +1,8 @@
+.desktop__container {
+  box-sizing: border-box;
+  min-height: 823px;
+  background-image: url('../../../img/desktop.png');
+  background-size: 675px 762px;
+  background-repeat: no-repeat;
+  background-position: right 30px bottom;
+}

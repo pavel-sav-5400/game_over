@@ -1,0 +1,19 @@
+.section__text_style_weight-bold {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.section__text_style_weight-bold:last-child {
+  margin-bottom: 0;
+}
+
+.section__text_style_weight-bold:before {
+  content: "";
+  width: 29px;
+  height: 29px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 30px;
+}

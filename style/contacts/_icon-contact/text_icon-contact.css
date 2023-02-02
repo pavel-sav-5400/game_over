@@ -1,0 +1,15 @@
+.section__text_icon-contact_location {
+  white-space: pre-line;
+}
+
+.section__text_icon-contact_location:before {
+  background-image: url('../../../img/location.svg');
+}
+
+.section__text_icon-contact_phone:before {
+  background-image: url('../../../img/phone-call.svg');
+}
+
+.section__text_icon-contact_mail:before {
+  background-image: url('../../../img/mail.svg');
+}

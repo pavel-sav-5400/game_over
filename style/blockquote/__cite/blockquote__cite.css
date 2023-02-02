@@ -1,0 +1,18 @@
+.blockquote__cite {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 280px;
+}
+
+.blockquote__cite:before {
+  margin-right: 30px;
+  float: left;
+  border-radius: 50px;
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../../img/boss.png');
+}
