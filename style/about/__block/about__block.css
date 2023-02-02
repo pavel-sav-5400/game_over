@@ -1,0 +1,11 @@
+.about__block{
+    display: inline-block;
+}
+
+.about__block:first-child {
+    margin-right: 70px;
+}
+
+.about__block:last-child {
+    max-width: 500px;
+}

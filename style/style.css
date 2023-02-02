@@ -1,5 +1,7 @@
 @import url(global.css);
 @import url(index.css);
+@import url("about/__block/about__block.css");
+@import url("about/__image/about__image.css");
 @import url(blockquote/blockquote.css);
 @import url(blockquote/__text/blockquote__text.css);
 @import url(blockquote/__text-block/blockquote__text-block.css);
@@ -21,5 +23,3 @@
 @import url(faq/__item/faq__item.css);
 @import url(faq/__list/faq__list.css);
 @import url(faq/__title/faq__title.css);
-
-
