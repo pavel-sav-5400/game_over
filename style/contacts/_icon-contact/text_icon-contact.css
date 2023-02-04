@@ -1,7 +1,3 @@
-.section__text_icon-contact_location {
-  white-space: pre-line;
-}
-
 .section__text_icon-contact_location:before {
   background-image: url('../../../img/location.svg');
 }

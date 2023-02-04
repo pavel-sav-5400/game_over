@@ -31,4 +31,5 @@ body {
   font-size: 20px;
   line-height: 28px;
   margin-bottom:28px;
+  white-space: pre-line;
 }
