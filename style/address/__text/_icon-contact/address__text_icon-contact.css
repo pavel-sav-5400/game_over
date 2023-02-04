@@ -1,0 +1,13 @@
+.address__text_icon-contact_location:before {
+  min-height: 56px;
+  background-position: center;
+  background-image: url('../../../../img/location.svg');
+}
+
+.address__text_icon-contact_phone:before {
+  background-image: url('../../../../img/phone-call.svg');
+}
+
+.address__text_icon-contact_mail:before {
+  background-image: url('../../../../img/mail.svg');
+}
