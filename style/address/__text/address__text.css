@@ -1,0 +1,24 @@
+.address__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 11px;
+}
+
+.address__text:first-child {
+  margin-bottom: 36px;
+}
+
+.address__text:last-child {
+  margin-bottom: 0;
+}
+
+.address__text:before {
+  content: "";
+  width: 29px;
+  height: 29px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 30px;
+}
