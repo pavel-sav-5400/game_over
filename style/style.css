@@ -7,8 +7,8 @@
 @import url("blockquote/__text-block/blockquote__text-block.css");
 @import url("blockquote/__cite/blockquote__cite.css");
 @import url("blockquote/__text-cite/blockquote__text-cite.css");
-@import url("contacts/_style/text_style_weigth-bold.css");
-@import url("contacts/_icon-contact/text_icon-contact.css");
+@import url("address/__text/address__text.css");
+@import url("address/__text/_icon-contact/address__text_icon-contact.css");
 @import url("social/__link/social__link.css");
 @import url("social/__list/social__list.css");
 @import url("social/__item/social__item.css");
