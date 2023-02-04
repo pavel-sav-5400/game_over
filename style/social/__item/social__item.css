@@ -2,3 +2,7 @@
   margin-right: 28px;
   display: inline-block;
 }
+
+.social__item:last-child {
+  margin-right: 0;
+}
