@@ -1,11 +1,10 @@
 .about__block{
     display: inline-block;
-}
-
-.about__block:first-child {
     margin-right: 70px;
+    font-size: 0;
 }
 
 .about__block:last-child {
     max-width: 500px;
+    margin: 0;
 }

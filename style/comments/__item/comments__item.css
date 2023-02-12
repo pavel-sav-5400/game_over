@@ -1,0 +1,16 @@
+.comments__item::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.comments__item {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.comments__item:last-child {
+    margin-bottom: 0;
+}
