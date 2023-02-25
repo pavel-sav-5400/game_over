@@ -1,0 +1,11 @@
+.header__button {
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
+    background: inherit;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    color: #FFFFFF;
+}
