@@ -25,6 +25,13 @@
 @import url("desktop/__container/desktop__container.css");
 @import url("desktop/__subtitle/desktop__subtitle.css");
 @import url("desktop/__title/desktop__title.css");
+@import url("desktop/__link/desktop__link.css");
+@import url("desktop/__text/desktop__text.css");
+@import url("desktop/__text/_color/desktop__text_color_violent.css");
+@import url("desktop/__text/_size/desktop__text_size_100.css");
+@import url("desktop/__text/_size/desktop__text_size_75.css");
+@import url("desktop/__block-text/desktop__block-text.css");
+@import url("desktop/__button/desktop__button.css");
 
 @import url("halls/__item/halls__item.css");
 @import url("halls/__list/halls__list.css");
@@ -40,5 +47,4 @@
 @import url("comments/__item/comments__item.css");
 @import url("comments/__block/comments__block.css");
 @import url("comments/__text/comments__text.css");
-
 

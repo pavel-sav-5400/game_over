@@ -1,0 +1,8 @@
+.desktop__link {
+    position: absolute;
+    left: 570px;
+    bottom: 90px;
+    display: inline-block;
+    width: 97px;
+    height: 97px;
+}
