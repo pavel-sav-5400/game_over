@@ -1,0 +1,14 @@
+.reserve__block {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.reserve__block:not(:first-child) {
+    padding: 0 100px;
+}
+
+.reserve__block:last-child {
+    margin-bottom: 40px;
+}

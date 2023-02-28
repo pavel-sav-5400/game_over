@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+fieldset {
+  border: none;
+}
+
 .section {
   margin: 0;
   padding: 50px 0;
@@ -32,4 +36,24 @@ body {
   line-height: 28px;
   margin-bottom:28px;
   white-space: pre-line;
+}
+
+.section__text-small {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.select {
+  padding: 16px;
+  width: 134px;
+  background-repeat: no-repeat;
+  background-position: 86px;
+  background-size: 0.85em auto;
+  background-image: url("../img/Polygon1.png");
+  appearance: none;
+}
+
+.select:last-child {
+  background-position: 252px;
+  width: 300px;
 }
