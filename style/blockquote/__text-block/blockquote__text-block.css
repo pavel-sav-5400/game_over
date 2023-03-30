@@ -2,8 +2,14 @@
   display: block;
 }
 
-.blockquote__text-block:before {
-  margin-right: 16px;
+.blockquote {
+  position: relative;
+}
+
+.blockquote__text:before {
+  position: absolute;
+  top: -11px;
+  left: 0;
   content: "\201c";
   font-weight: 900;
   color: #6C0287;

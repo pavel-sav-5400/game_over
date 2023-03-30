@@ -1,5 +1,7 @@
-.desktop__text_size_75 {
+.desktop__text-new {
+    font-weight: 900;
     font-size: 75px;
     line-height: 106px;
     font-variant: all-small-caps;
+    color: #CD06FF;
 }

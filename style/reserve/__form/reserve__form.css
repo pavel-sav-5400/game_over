@@ -1,4 +1,4 @@
 .reserve__form {
-    position: relative;
-    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
 }

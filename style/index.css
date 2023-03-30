@@ -13,22 +13,14 @@ fieldset {
   padding: 50px 0;
 }
 
-.section:first-child {
-  padding-top: 146px;
-}
-
-.section:last-child {
-  padding-bottom: 51px;
-}
-
 .section__title {
+  max-width: 800px;
+  margin: 0 auto 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
-  margin-top: 0;
 }
 
 .section__text {
@@ -43,7 +35,11 @@ fieldset {
   line-height: 16px;
 }
 
-.select {
+.section__text_margin_60 {
+  margin-bottom: 60px;
+}
+
+/* .select {
   padding: 16px;
   width: 134px;
   background-repeat: no-repeat;
@@ -57,3 +53,4 @@ fieldset {
   background-position: 252px;
   width: 300px;
 }
+ */

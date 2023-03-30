@@ -1,8 +1,11 @@
-.desktop__block-text {
-    display: inline-block;
-    margin-right: 40px;
+.desktop__block {
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
 }
 
-.desktop__block-text:last-child {
-    margin: 0;
+.desktop__block-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

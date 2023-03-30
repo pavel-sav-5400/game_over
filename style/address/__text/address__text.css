@@ -1,12 +1,13 @@
 .address__text {
+  display: block;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  margin-bottom: 11px;
+  margin-bottom: 14px;
 }
 
 .address__text:first-child {
-  margin-bottom: 36px;
+  margin-bottom: 39px;
 }
 
 .address__text:last-child {
@@ -15,10 +16,10 @@
 
 .address__text:before {
   content: "";
-  width: 29px;
-  height: 29px;
+  width: 32px;
+  height: 32px;
   background-size: contain;
   background-repeat: no-repeat;
   float: left;
-  margin-right: 30px;
+  margin-right: 28px;
 }
