@@ -1,0 +1,15 @@
+.relax__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-basis: 380px;
+    min-height: 228px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: baseline;
+    padding-bottom: 6px;
+    padding-left: 40px;
+}

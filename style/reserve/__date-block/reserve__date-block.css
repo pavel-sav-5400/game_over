@@ -1,0 +1,14 @@
+.reserve__date-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px 31px;
+    align-items: flex-end;
+}
+
+.reserve__date-block-inline {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 300px;
+}

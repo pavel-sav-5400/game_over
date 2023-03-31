@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+.navigation__list {
+    display: inline-flex;
+    gap: 40px;
+}
+
+.navigation__item {
+    display: inline-flex;
+    font-size: 22px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+

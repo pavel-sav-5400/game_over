@@ -1,0 +1,15 @@
+.reserve__button {
+    border-radius: 10px;
+    border: none;
+    padding: 16px 50px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #6C0287;
+    min-width: 300px;
+    /* position: absolute;
+    right: 100px;
+    bottom: 0; */
+    align-self: flex-end;
+}

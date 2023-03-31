@@ -1,12 +1,3 @@
-/* .desktop__container {
-  box-sizing: border-box;
-  min-height: 823px;
-  background-image: url('../../../img/desktop.png');
-  background-size: 675px 762px;
-  background-repeat: no-repeat;
-  background-position: right 30px bottom;
-} */
-
 .desktop__container {
   position: relative;
   min-height: 823px;
@@ -14,13 +5,13 @@
 
 .desktop__container::before {
   position: absolute;
+  right: 30px;
+  bottom: 0;
   content: "";
-  display: inline-block;
-  width: 1180px;
+  width: 675px;
   height: 823px;
-  box-sizing: border-box;
   background-image: url('../../../img/desktop.png');
   background-size: 675px 762px;
   background-repeat: no-repeat;
-  background-position: right  bottom ;
+  background-position: right bottom ;
 }

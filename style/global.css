@@ -37,6 +37,10 @@ ul, ol {
   margin: 0;
 }
 
+label {
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -60,3 +64,8 @@ iframe {
   padding: 0 30px;
   margin: 0 auto;
 }
+
+.fieldset {
+  padding: 0;
+}
+

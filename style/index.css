@@ -4,27 +4,23 @@ body {
   margin: 0;
 }
 
+fieldset {
+  border: none;
+}
+
 .section {
   margin: 0;
   padding: 50px 0;
 }
 
-.section:first-child {
-  padding-top: 146px;
-}
-
-.section:last-child {
-  padding-bottom: 51px;
-}
-
 .section__title {
+  max-width: 800px;
+  margin: 0 auto 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 50px;
-  margin-top: 0;
 }
 
 .section__text {
@@ -33,3 +29,28 @@ body {
   margin-bottom:28px;
   white-space: pre-line;
 }
+
+.section__text-small {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.section__text_margin_60 {
+  margin-bottom: 60px;
+}
+
+/* .select {
+  padding: 16px;
+  width: 134px;
+  background-repeat: no-repeat;
+  background-position: 86px;
+  background-size: 0.85em auto;
+  background-image: url("../img/Polygon1.png");
+  appearance: none;
+}
+
+.select:last-child {
+  background-position: 252px;
+  width: 300px;
+}
+ */
