@@ -14,11 +14,6 @@ border-radius: 8px;
 cursor: pointer;
 }
 
-.reserve__hall::after {
-    content: "";
-    background: #000;
-}
-
 .reserve__hall:hover,
 .reserve__hall:focus {
     outline: 3px solid #640AA3;
@@ -29,5 +24,4 @@ cursor: pointer;
     background: #6C0287;
     outline: 3px solid #FFFFFF;
     color: #FFFFFF;
-
 }
