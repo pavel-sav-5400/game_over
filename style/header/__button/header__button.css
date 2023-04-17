@@ -8,6 +8,8 @@
     text-transform: uppercase;
     padding: 9px 29px 10px;
     color: #FFFFFF;
+    transition-duration: 0.2s;
+    transition-property: background, border, outline;
 }
 
 .header__button:hover {

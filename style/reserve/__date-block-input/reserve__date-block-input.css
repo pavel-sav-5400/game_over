@@ -1,7 +1,9 @@
 .reserve__date-block-input {
+    transition-duration: 0.2s;
+    transition-property: outline;
     width: 100%;
 }
 
-.reserve__date-block-input:active {
+.reserve__date-block-input:focus {
     outline: 2px solid #CD06FF;
 }

@@ -10,8 +10,9 @@
     border-radius: 8px;
     color: #000000;
     padding: 7px 15px;
-border-radius: 8px;
-cursor: pointer;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: outline, background, color;
 }
 
 .reserve__hall:hover,

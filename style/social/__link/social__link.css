@@ -3,6 +3,8 @@
   color: #ffffff;
   width: 48px;
   height: 48px;
+  transition-duration: 0.3s;
+  transition-property: color, outline;
 }
 
 .social__link:hover {

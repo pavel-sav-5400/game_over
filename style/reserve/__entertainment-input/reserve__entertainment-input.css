@@ -2,7 +2,8 @@
     width: 27px;
     height: 27px;
     margin-right: 12px;
-    /* vertical-align: middle; */
+    transition-duration: 0.2s;
+    transition-property: outline, outline-offset;
 }
 
 .reserve__entertainment-input:focus {

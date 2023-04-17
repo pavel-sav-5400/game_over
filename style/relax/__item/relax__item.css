@@ -12,4 +12,10 @@
     align-items: baseline;
     padding-bottom: 6px;
     padding-left: 40px;
+    transition-duration: 0.4s;
+}
+
+.relax__item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 4px;
 }

@@ -6,6 +6,8 @@
     display: block;
     width: 97px;
     height: 97px;
+    transition-duration: 0.2s;
+    transition-property: background, fill, outline;
 }
 
 .desktop__link:hover {
@@ -15,10 +17,11 @@
 
 .desktop__link:hover > svg > rect {
     fill: #6C0287;
+    border-radius: 50%;
 }
 
 .desktop__link:focus {
-    outline: 1px solid #CD06FF;;
+    outline: 1px solid #CD06FF;
 }
 
 .desktop__link:active {

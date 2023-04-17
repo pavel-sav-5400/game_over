@@ -4,6 +4,8 @@
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 14px;
+  transition-duration: 0.3s;
+  transition-property: color;
 }
 
 .address__text:first-child {

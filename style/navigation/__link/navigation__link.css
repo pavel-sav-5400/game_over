@@ -1,3 +1,8 @@
+.navigation__link {
+    transition-duration: 0.2s;
+    transition-property: color;
+}
+
 .navigation__link:hover {
     color: #e4cfe9;
 }
