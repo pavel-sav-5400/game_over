@@ -1,14 +1,13 @@
 .reserve__date-block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
-    gap: 14px 31px;
-    align-items: flex-end;
+    gap: 14px;
+    max-width: 300px;
 }
 
-.reserve__date-block-inline {
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 300px;
+
+.reserve__date-block:last-child {
+    width: 100%;
 }

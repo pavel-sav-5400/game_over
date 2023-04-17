@@ -1,5 +1,6 @@
 .reserve__hall {
     width: 250px;
+    height: 55px;
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
@@ -9,4 +10,24 @@
     border-radius: 8px;
     color: #000000;
     padding: 7px 15px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.reserve__hall::after {
+    content: "";
+    background: #000;
+}
+
+.reserve__hall:hover,
+.reserve__hall:focus {
+    outline: 3px solid #640AA3;
+}
+
+
+.reserve__hall:active {
+    background: #6C0287;
+    outline: 3px solid #FFFFFF;
+    color: #FFFFFF;
+
 }

@@ -1,0 +1,7 @@
+.reserve__date-block-input {
+    width: 100%;
+}
+
+.reserve__date-block-input:active {
+    outline: 2px solid #CD06FF;
+}

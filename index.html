@@ -80,7 +80,7 @@
             <p class="desktop__text">Тематических
               зала</p>
           </div>
-  
+
           <div class="desktop__block-text">
             <p class="desktop__text-new">new</p>
             <p class="desktop__text">Новейшая
@@ -163,155 +163,135 @@
 
           <fieldset class="fieldset reserve__block ">
             <legend class="reserve__title">Выбери зал</legend>
-            <label class="reserve__hall">
-              <input class="reserve__hall-input" type="radio" name="hall" value="80's vibes">
-              <span>80's vibes</span>
+            <input class="reserve__hall-input" type="radio" name="hall" value="80's vibes" id="80's vibes">
+            <label class="reserve__hall" for="80's vibes">
+              80's vibes
             </label>
 
-            <label class="reserve__hall">
-              <input class="reserve__hall-input" type="radio" name="hall" value="Star wars">
-              <span>Star wars</span>
+
+
+            <input class="reserve__hall-input" type="radio" name="hall" value="Star wars" id="Star wars">
+            <label class="reserve__hall" for="Star wars">
+              Star wars
             </label>
 
-            <label class="reserve__hall">
-              <input class="reserve__hall-input" type="radio" name="hall" value="Wild west">
-              <span>Wild west</span>
+
+
+            <input class="reserve__hall-input" type="radio" name="hall" value="Wild west" id="Wild west">
+            <label class="reserve__hall" for="Wild west">
+              Wild west
             </label>
 
-            <label class="reserve__hall">
-              <input class="reserve__hall-input" type="radio" name="hall" value="Neon style">
-              <span>Neon style</span>
+
+
+            <input class="reserve__hall-input" type="radio" name="hall" value="Neon style" id="Neon style">
+            <label class="reserve__hall" for="Neon style">
+              Neon style
             </label>
+
+
           </fieldset>
 
-          <fieldset class="fieldset reserve__block">
-            <legend class="reserve__title">Собери набор развлечений:</legend>
-            <fieldset class="fieldset">
+          <fieldset class="fieldset reserve__block eee">
+            <legend class="reserve__title">Собери набор развлечений</legend>
+            <fieldset class="fieldset reserve__block-entertainment reserve__block-entertainment_width_280">
               <legend class="reserve__title reserve__subtitle">Приставка:</legend>
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="radio" name="console" value="PlayStation">
-                <span>PlayStation</span>
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="radio" name="console" value="PlayStation">
+                <span class="reserve__entertainment-text">PlayStation</span>
               </label>
 
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="radio" name="console" value="Sega Mega Drive">
-                <span>Sega Mega Drive</span>
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="radio" name="console" value="Sega Mega Drive">
+                <span class="reserve__entertainment-text">Sega Mega Drive</span>
               </label>
 
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="radio" name="console" value="X-box One S">
-                <span>X-box One S</span>
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="radio" name="console" value="X-box One S">
+                <span class="reserve__entertainment-text">X-box One S</span>
               </label>
 
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="radio" name="console" value="Dendy">
-                <span>Dendy</span>
-              </label>
-            </fieldset>
-
-            <fieldset class="fieldset">
-              <legend class="reserve__title reserve__subtitle">Настольные игры:</legend>
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="checkbox" name="table-games" value="Jenga">
-                <span>Jenga</span>
-              </label>
-
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="checkbox" name="table-games" value="Monopoly">
-                <span>Monopoly</span>
-              </label>
-
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="checkbox" name="table-games" value="Munchkin">
-                <span>Манчкин</span>
-              </label>
-
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="checkbox" name="table-games" value="Alias">
-                <span>Alias</span>
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="radio" name="console" value="Dendy">
+                <span class="reserve__entertainment-text">Dendy</span>
               </label>
             </fieldset>
 
-            <fieldset class="fieldset">
-              <legend class="reserve__title reserve__subtitle">Дополнительно:</legend>
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="checkbox" name="other" value="karaoke">
-                <span>Караоке</span>
+            <fieldset class="fieldset reserve__block-entertainment">
+              <legend class="reserve__title reserve__subtitle">Настольные игры</legend>
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="checkbox" name="table-games" value="Jenga">
+                <span class="reserve__entertainment-text">Jenga</span>
               </label>
 
-              <label class="reserve__entertainment">
-                <input class="reserve__input" type="checkbox" name="other" value="VR">
-                <span>VR</span>
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="checkbox" name="table-games" value="Monopoly">
+                <span class="reserve__entertainment-text">Monopoly</span>
+              </label>
+
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="checkbox" name="table-games" value="Munchkin">
+                <span class="reserve__entertainment-text">Манчкин</span>
+              </label>
+
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="checkbox" name="table-games" value="Alias">
+                <span class="reserve__entertainment-text">Alias</span>
+              </label>
+            </fieldset>
+
+            <fieldset class="fieldset reserve__block-entertainment">
+              <legend class="reserve__title reserve__subtitle">Дополнительно</legend>
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="checkbox" name="other" value="karaoke">
+                <span class="reserve__entertainment-text">Караоке</span>
+              </label>
+
+              <label class="reserve__entertainment-label">
+                <input class="reserve__entertainment-input" type="checkbox" name="other" value="VR">
+                <span class="reserve__entertainment-text">VR</span>
               </label>
             </fieldset>
           </fieldset>
 
-          <fieldset class="fieldset reserve__block">
-            <legend class="reserve__title">Выберите дату и время</legend>
-            <div class="reserve__date-block reserve__date-block-inline">
-              <!-- <select class="select" name="date" id="date">
-                <option value="">Дата</option>
-                <option value="">01.05.2023</option>
-              </select>
+          <fieldset class="fieldset reserve__block reserve__block_margin-bottom_40">
+            <legend class="reserve__title">Выбери дату и время</legend>
+            <div class="reserve__date-block">
+              <div class="reserve__date-block-flex">
+                <input class="reserve__date-block-input reserve__date" type="date" name="date" required>
 
-              <select  class="select" name="time" id="time">
-                <option value="">Время</option>
-              </select>
+                <input class="reserve__date-block-input reserve__date" type="time" name="time" required>
+              </div>
 
-              <select  class="select" name="people" id="people">
-                <option value="">Сколько человек</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-              </select> -->
-              <label>
-                <span class="reserve__text">Дата</span>
-                <input class="reserve__date" type="date" name="date" required>
-              </label>
+              <input class="reserve__date-block-input reserve__date reserve__date_width_300" type="number" name="people"
+                min="3" max="30" required placeholder="Сколько человек">
 
-              <label>
-                <span class="reserve__text">Время</span>
-                <input class="reserve__date" type="time" name="time" required>
-              </label>
-
-              <label>
-                <span class="reserve__text">Сколько человек</span>
-                <input class="reserve__date reserve__date_width_300" type="number" name="people" min="3" max="30"
-                  required>
-              </label>
             </div>
 
-            <div class="reserve__date-block">
+            <div class="reserve__date-block reserve__date-block-name">
               <label>
                 <span class="reserve__text">Имя</span>
-                <input class="reserve__name" type="text" name="firstname" required>
+                <input class="reserve__date-block-input reserve__date" type="text" name="firstname" required>
               </label>
 
               <label>
                 <span class="reserve__text">Фамилия</span>
-                <input class="reserve__name" type="text" name="lastname" required>
+                <input class="reserve__date-block-input reserve__date" type="text" name="lastname" required>
               </label>
             </div>
 
             <div class="reserve__date-block">
               <label>
                 <span class="reserve__text">Телефон</span>
-                <input class="reserve__contact" type="number" name="phone-number" required>
+                <input class="reserve__date-block-input reserve__date" type="number" name="phone-number" required>
               </label>
 
               <label>
                 <span class="reserve__text">E-mail</span>
-                <input class="reserve__contact" type="email" name="email">
+                <input class="reserve__date-block-input reserve__date" type="email" name="email">
               </label>
             </div>
 
-            <!-- <label>
-              <input type="checkbox" name="confirm" value="yes" required>
-              <span>Я старше 18 лет</span>
-            </label> -->
           </fieldset>
 
           <div class="reserve__block">
@@ -332,7 +312,8 @@
         <div class="about__block">
           <p class="section__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной
             реальности в центральной части города.</p>
-          <p class="section__text section__text_margin_60">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать
+          <p class="section__text section__text_margin_60">Каждый день мы стараемся создавать для вас самую лучшую
+            игровую атмосферу и радовать
             Вас топовыми игровыми разработками со всего мира.</p>
           <blockquote class="blockquote">
             <p class="blockquote__text"><q><span class="blockquote__text-block">GAME OVER —</span>
@@ -407,9 +388,10 @@
             <address class="address">
               <p class="section__text address__text address__text_icon-contact_location">г. Москва
                 ул. Аквамарина, 16</p>
-              <a class="section__text address__text address__text_icon-contact_phone" href="tel:89509302893">8(950)930-28-93</a>
+              <a class="section__text address__text address__text_icon-contact_phone"
+                href="tel:89509302893">8(950)930-28-93</a>
               <a class="section__text address__text address__text_icon-contact_mail"
-                  href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+                href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
             </address>
             <nav class="social">
               <ul class="social__list">
@@ -441,18 +423,18 @@
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M25.0005 2.43241e-05C30.0173 -0.00698868 34.919 1.50262 39.0626 4.33079V28.3013C39.0626 29.9628 37.7037 31.3224 36.0447 31.3224C34.3838 31.3224 33.0261 29.9628 33.0261 28.3013V21.1186C33.0261 15.3846 30.1242 12.9994 26.3447 12.9994H14.0441C9.59088 12.9994 5.89665 15.834 5.89665 20.3289C5.89665 22.6289 6.8819 25.9994 11.5415 26.8353C15.337 27.5186 16.8351 27.3199 16.8351 29.3506C16.8351 31.3224 14.6261 31.3224 11.7101 31.3224H0.808189C0.269676 29.2582 -0.0019826 27.1334 -0.000143311 25C-0.000143311 11.1981 11.196 2.43241e-05 25.0005 2.43241e-05Z" />
                     </svg>
-  
+
                   </a></li>
               </ul>
             </nav>
           </div>
-  
+
           <img src="img/map.png" alt="карта района Замоскворечье">
         </div>
-  
+
         <div class="footer__block">
           <p class="section__text-small">© Game Over, 2022</p>
-  
+
           <div class="footer__block-site-author">
             <p class="section__text-small">Design by Anastasia Ilina</p>
             <a class="section__text-small" href="http://www.gmail.com/" target="_blank">ilina9825@gmail.com</a>

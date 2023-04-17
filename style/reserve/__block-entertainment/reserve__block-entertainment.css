@@ -1,0 +1,19 @@
+.reserve__block-entertainment {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px 0;
+    /* margin-right: 100px; */
+}
+
+.reserve__block-entertainment:last-child {
+    margin-right: 0;
+}
+
+.eee {
+    max-width: 1180px;
+    width: 100%;
+    display: flex;
+}

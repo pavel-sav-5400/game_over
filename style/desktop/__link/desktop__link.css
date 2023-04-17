@@ -1,8 +1,21 @@
 .desktop__link {
     position: absolute;
-    right: 574px;
+    right: 50%;
+    transform: translateX(50%);
     bottom: 90px;
-    display: inline-block;
+    display: block;
     width: 97px;
     height: 97px;
+    
+}
+
+.desktop__link:hover {
+    background: #961a1a;
+    /* border: 1px solid #791e1e; */
+    color: #6C0287;
+    border-radius: 50%;
+}
+
+.desktop__link:focus {
+    border-radius: 0;
 }

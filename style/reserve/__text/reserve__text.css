@@ -1,3 +1,7 @@
 .reserve__text {
     display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 6px;
 }

@@ -1,0 +1,6 @@
+.reserve__date-block-flex {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 22px;
+    max-width: 100%;
+}

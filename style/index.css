@@ -38,19 +38,3 @@ fieldset {
 .section__text_margin_60 {
   margin-bottom: 60px;
 }
-
-/* .select {
-  padding: 16px;
-  width: 134px;
-  background-repeat: no-repeat;
-  background-position: 86px;
-  background-size: 0.85em auto;
-  background-image: url("../img/Polygon1.png");
-  appearance: none;
-}
-
-.select:last-child {
-  background-position: 252px;
-  width: 300px;
-}
- */

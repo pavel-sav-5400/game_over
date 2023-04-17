@@ -1,6 +1,5 @@
 .header__button {
     border: 3px solid #CD06FF;
-    cursor: pointer;
     border-radius: 10px;
     background: inherit;
     font-weight: 700;
@@ -9,4 +8,18 @@
     text-transform: uppercase;
     padding: 9px 29px 10px;
     color: #FFFFFF;
+}
+
+.header__button:hover {
+    background: #6C0287;
+    border: 3px solid #6C0287;
+}
+
+.header__button:focus {
+    background: #6C0287;
+}
+
+.header__button:active {
+    background: #640AA3;
+    outline: 1px solid #000000;
 }

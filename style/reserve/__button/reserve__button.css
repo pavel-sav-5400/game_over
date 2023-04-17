@@ -7,9 +7,19 @@
     line-height: 28px;
     text-transform: uppercase;
     color: #6C0287;
-    min-width: 300px;
-    /* position: absolute;
-    right: 100px;
-    bottom: 0; */
-    align-self: flex-end;
+}
+
+.reserve__button:hover {
+    background: #EADEED;
+    outline: 3px solid #6C0287;
+}
+
+.reserve__button:focus {
+    background: #FFFFFF;
+    outline: 3px solid #6C0287;
+}
+
+.reserve__button:active {
+    color: #6C0287;
+    outline: none;
 }

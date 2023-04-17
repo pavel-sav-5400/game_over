@@ -13,16 +13,21 @@
 @import url("reserve/__title/reserve__title.css");
 @import url("reserve/__subtitle/reserve__subtitle.css");
 @import url("reserve/__block/reserve__block.css");
+@import url("reserve/__block/_margin-bottom_40/reserve__block_margin-bottom_40.css");
+@import url("reserve/__block-entertainment/reserve__block-entertainment.css");
+@import url("reserve/__block-entertainment/_width_280/reserve__block-entertainment_width_280.css");
 @import url("reserve/__button/reserve__button.css");
 @import url("reserve/__contact/reserve__contact.css");
 @import url("reserve/__date/reserve__date.css");
-@import url("reserve/__date/_width/reserve__date_width_300.css");
 @import url("reserve/__date-block/reserve__date-block.css");
-@import url("reserve/__entertainment/reserve__intertainment.css");
+@import url("reserve/__date-block-flex/reserve__date-block-flex.css");
+@import url("reserve/__date-block-input/reserve__date-block-input.css");
+@import url("reserve/__date-block-name/reserve__date-block-name.css");
+@import url("reserve/__entertainment-label/reserve__intertainment-label.css");
 @import url("reserve/__form/reserve__form.css");
 @import url("reserve/__hall/reserve__hall.css");
 @import url("reserve/__hall/reserve__hall-input.css");
-@import url("reserve/__input/reserve__input.css");
+@import url("reserve/__entertainment-input/reserve__entertainment-input.css");
 @import url("reserve/__name/reserve__name.css");
 @import url("reserve/__text/reserve__text.css");
 
@@ -48,16 +53,12 @@
 @import url("desktop/__text/desktop__text.css");
 @import url("desktop/__text-4/deskktop__text-4.css");
 @import url("desktop/__text-new/desktop__text-new.css");
-/* @import url("desktop/__text/_color/desktop__text_color_violent.css");
-@import url("desktop/__text/_size/desktop__text_size_100.css");
-@import url("desktop/__text/_size/desktop__text_size_75.css"); */
 @import url("desktop/__block-text/desktop__block-text.css");
 @import url("desktop/__button/desktop__button.css");
 
 @import url("halls/__item/halls__item.css");
 @import url("halls/__list/halls__list.css");
 @import url("halls/__text/hall__text.css");
-/* @import url("halls/__title/halls__title.css"); */
 @import url("halls/_bg-image/halls__item_bg-image.css");
 
 @import url("faq/__item/faq__item.css");

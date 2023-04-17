@@ -1,4 +1,11 @@
 .reserve__date {
-    width: 134px;
-    padding: 16px;
+    max-height: 52px;
+    overflow: hidden;
+    border: none;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 12px 20px;
+    flex-basis: 50%;
 }

@@ -6,13 +6,9 @@
     margin-bottom: 60px;
 }
 
-.reserve__block:not(:first-child) {
-    padding-left: 100px;
-    max-width: 1080px;
-}
-
 .reserve__block:last-child {
     margin-bottom: 0;
+    max-width: 1080px;
     width: 100%;
     justify-content: flex-end;
 }

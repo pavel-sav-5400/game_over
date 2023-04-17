@@ -1,0 +1,11 @@
+.reserve__entertainment-input {
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+    /* vertical-align: middle; */
+}
+
+.reserve__entertainment-input:focus {
+    outline: 1px solid #CD06FF;
+    outline-offset: 3px;
+}
