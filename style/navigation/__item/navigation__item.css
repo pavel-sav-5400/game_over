@@ -7,7 +7,7 @@
 
 
 .navigation__list {
-    display: inline-flex;
+    display: flex;
     gap: 40px;
 }
 
@@ -17,4 +17,3 @@
     line-height: 50px;
     text-transform: uppercase;
 }
-

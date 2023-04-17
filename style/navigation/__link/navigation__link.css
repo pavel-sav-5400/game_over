@@ -1,0 +1,11 @@
+.navigation__link:hover {
+    color: #e4cfe9;
+}
+
+.navigation__link:focus {
+    color: #640AA3;
+}
+
+.navigation__link:active {
+    color: #CD06FF;
+}

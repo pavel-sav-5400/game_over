@@ -1,6 +1,20 @@
 .social__link {
   display: inline-block;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 48px;
   height: 48px;
+}
+
+.social__link:hover {
+  color: #EADEED;
+}
+
+.social__link:focus {
+  color: #EADEED;
+  outline: 1px solid #CD06FF ;
+}
+
+.social__link:active {
+  color: #CD06FF;
+  outline: none;
 }

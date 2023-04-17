@@ -23,3 +23,15 @@
   float: left;
   margin-right: 28px;
 }
+
+.address__text:not(:first-child):hover {
+  color: #EADEED;
+}
+
+.address__text:not(:first-child):focus {
+  color: #EADEED;
+}
+
+.address__text:not(:first-child):active {
+  color: #CD06FF;
+}

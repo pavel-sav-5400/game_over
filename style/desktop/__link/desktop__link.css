@@ -6,16 +6,26 @@
     display: block;
     width: 97px;
     height: 97px;
-    
 }
 
 .desktop__link:hover {
-    background: #961a1a;
-    /* border: 1px solid #791e1e; */
-    color: #6C0287;
+    background: #ffffff;
     border-radius: 50%;
 }
 
+.desktop__link:hover > svg > rect {
+    fill: #6C0287;
+}
+
 .desktop__link:focus {
-    border-radius: 0;
+    outline: 1px solid #CD06FF;;
+}
+
+.desktop__link:active {
+    background: #CD06FF;
+    outline: none;
+}
+
+.desktop__link:active > svg > rect {
+    fill: #ffffff;
 }
