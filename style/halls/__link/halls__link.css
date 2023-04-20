@@ -1,0 +1,17 @@
+.halls__link {
+  transition-duration: 0.3s;
+  transition-property: color, opacity;
+}
+
+.halls__link:hover {
+  color: #aca8aa;
+}
+
+.halls__link:focus {
+  color: #15835e;
+}
+
+.halls__link:active {
+  color: #15835e;
+  opacity: 0.5;
+}

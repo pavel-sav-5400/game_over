@@ -14,6 +14,7 @@
 @import url("reserve/__title/reserve__title.css");
 @import url("reserve/__subtitle/reserve__subtitle.css");
 @import url("reserve/__block/reserve__block.css");
+@import url("reserve/__block/_padding-left_100/reserve__block_padding-left_100.css");
 @import url("reserve/__block/_margin-bottom_40/reserve__block_margin-bottom_40.css");
 @import url("reserve/__block-entertainment/reserve__block-entertainment.css");
 @import url("reserve/__block-entertainment/_width_280/reserve__block-entertainment_width_280.css");
@@ -59,20 +60,22 @@
 
 @import url("halls/__item/halls__item.css");
 @import url("halls/__list/halls__list.css");
-@import url("halls/__text/hall__text.css");
+@import url("halls/__link/halls__link.css");
 @import url("halls/_bg-image/halls__item_bg-image.css");
 
 @import url("faq/__item/faq__item.css");
 @import url("faq/__list/faq__list.css");
 @import url("faq/__title/faq__title.css");
 
+@import url("comments/__block/comments__block.css");
 @import url("comments/__image/comments__image.css");
 @import url("comments/__item/comments__item.css");
-@import url("comments/__block/comments__block.css");
+@import url("comments/__list/comments__list.css");
 @import url("comments/__text/comments__text.css");
 
 @import url("footer/footer.css");
 @import url("footer/__block/footer__block.css");
+@import url("footer/__block-link/footer__block-link.css");
 @import url("footer/__block-site-author/footer__block-site-author.css");
 @import url("footer/__contact/footer__contact.css");
 @import url("footer/__container/footer__container.css");

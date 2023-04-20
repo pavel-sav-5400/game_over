@@ -1,0 +1,7 @@
+.reserve__block_padding-left_100 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-left: 100px;
+}

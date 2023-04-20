@@ -6,21 +6,26 @@
     display: block;
     width: 97px;
     height: 97px;
+    border-radius: 50%;
     transition-duration: 0.2s;
     transition-property: background, fill, outline;
 }
 
+.desktop__link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+
 .desktop__link:hover {
     background: #ffffff;
-    border-radius: 50%;
 }
 
-.desktop__link:hover > svg > rect {
+.desktop__link:hover .desktop__link-rect {
     fill: #6C0287;
-    border-radius: 50%;
 }
 
-.desktop__link:focus {
+.desktop__link:focus::after {
     outline: 1px solid #CD06FF;
 }
 
@@ -29,6 +34,6 @@
     outline: none;
 }
 
-.desktop__link:active > svg > rect {
+.desktop__link:active .desktop__link-rect {
     fill: #ffffff;
 }

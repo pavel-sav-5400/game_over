@@ -1,0 +1,11 @@
+.footer__block-link:hover {
+    color: #bb8c8c;
+}
+
+.footer__block-link:focus {
+    color:#8a2be2
+}
+
+.footer__block-link:active {
+    color:#a44bf7;
+}

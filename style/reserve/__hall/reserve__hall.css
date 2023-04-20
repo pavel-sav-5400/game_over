@@ -20,9 +20,12 @@
     outline: 3px solid #640AA3;
 }
 
-
 .reserve__hall:active {
     background: #6C0287;
     outline: 3px solid #FFFFFF;
     color: #FFFFFF;
+}
+
+:checked + .reserve__hall {
+    background: #850ea3;
 }
