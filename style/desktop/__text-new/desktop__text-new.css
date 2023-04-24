@@ -3,5 +3,5 @@
     font-size: 75px;
     line-height: 106px;
     font-variant: all-small-caps;
-    color: #CD06FF;
+    color: var(--color-primary-pink, #CD06FF);
 }

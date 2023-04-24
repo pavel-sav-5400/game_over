@@ -8,9 +8,9 @@
 }
 
 .navigation__link:focus {
-    color: #640AA3;
+    color: var(--color-primary-pink, #CD06FF);
 }
 
 .navigation__link:active {
-    color: #CD06FF;
+    color: var(--color-header-active, #640AA3);
 }

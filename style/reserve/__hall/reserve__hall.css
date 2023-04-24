@@ -6,7 +6,7 @@
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    background: #FFFFFF;
+    background: var(--primary-color, #FFFFFF);
     border-radius: 8px;
     color: #000000;
     padding: 7px 15px;
@@ -17,13 +17,13 @@
 
 .reserve__hall:hover,
 .reserve__hall:focus {
-    outline: 3px solid #640AA3;
+    outline: 3px solid var(--color-header-active, #640AA3);
 }
 
 .reserve__hall:active {
-    background: #6C0287;
-    outline: 3px solid #FFFFFF;
-    color: #FFFFFF;
+    background: var(--color-primary-blueviolent, #6c0287);
+    outline: 3px solid var(--primary-color, #FFFFFF);
+    color: var(--primary-color, #FFFFFF);
 }
 
 :checked + .reserve__hall {

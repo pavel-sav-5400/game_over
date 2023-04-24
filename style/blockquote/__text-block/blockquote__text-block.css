@@ -12,5 +12,5 @@
   left: 0;
   content: "\201c";
   font-weight: 900;
-  color: #6C0287;
+  color: var(--color-primary-blueviolent, #6c0287);
 }

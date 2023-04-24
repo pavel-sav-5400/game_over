@@ -27,13 +27,13 @@
 }
 
 .address__text:not(:first-child):hover {
-  color: #EADEED;
+  color: var(--color-contacts-hover-focus, #EADEED);
 }
 
 .address__text:not(:first-child):focus {
-  color: #EADEED;
+  color: var(--color-contacts-hover-focus, #EADEED);
 }
 
 .address__text:not(:first-child):active {
-  color: #CD06FF;
+  color: var(--color-primary-pink, #CD06FF);
 }

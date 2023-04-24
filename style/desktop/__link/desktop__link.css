@@ -18,22 +18,21 @@
 }
 
 .desktop__link:hover {
-    background: #ffffff;
-}
+    background: var(--primary-color, #FFFFFF);}
 
 .desktop__link:hover .desktop__link-rect {
-    fill: #6C0287;
+    fill: var(--color-primary-blueviolent, #6c0287);
 }
 
 .desktop__link:focus::after {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--color-primary-pink, #CD06FF);
 }
 
 .desktop__link:active {
-    background: #CD06FF;
+    background: var(--color-primary-pink, #CD06FF);
     outline: none;
 }
 
 .desktop__link:active .desktop__link-rect {
-    fill: #ffffff;
+    fill: var(--primary-color, #FFFFFF);
 }

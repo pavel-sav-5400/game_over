@@ -1,23 +1,33 @@
 .relax__item_bg-image_vr {
-    background-image: url("../../../../img/relax/vr.jpg")
+    background-image: url("../../../../img/relax/vr.jpg");
 }
 
 .relax__item_bg-image_audio {
-    background-image: url("../../../../img/relax/audio.jpg")
+    background-image: url("../../../../img/relax/audio.jpg");
+    transform: translateY(70px);
 }
 
 .relax__item_bg-image_micro {
-    background-image: url("../../../../img/relax/micro.jpg")
+    background-image: url("../../../../img/relax/micro.jpg");
 }
 
 .relax__item_bg-image_table-games {
-    background-image: url("../../../../img/relax/table-games.jpg")
+    background-image: url("../../../../img/relax/table-games.jpg");
 }
 
 .relax__item_bg-image_netflix {
-    background-image: url("../../../../img/relax/netflix.jpg")
+    background-image: url("../../../../img/relax/netflix.jpg");
+    transform: translateY(70px);
 }
 
 .relax__item_bg-image_playstation {
-    background-image: url("../../../../img/relax/playstation.jpg")
+    background-image: url("../../../../img/relax/playstation.jpg");
+}
+
+.relax__item_bg-image_audio:hover {
+    transform: translateY(70px) scale(1.1);
+}
+
+.relax__item_bg-image_netflix:hover {
+    transform: translateY(70px) scale(1.1);
 }

@@ -7,6 +7,6 @@
 }
 
 .reserve__entertainment-input:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--color-primary-pink, #CD06FF);
     outline-offset: 3px;
 }

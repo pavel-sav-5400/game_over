@@ -6,22 +6,22 @@
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #6C0287;
+    color: var(--color-primary-blueviolent, #6c0287);
     transition-duration: 0.2s;
     transition-property: background, outline, color;
 }
 
 .reserve__button:hover {
-    background: #EADEED;
-    outline: 3px solid #6C0287;
+    background: var(--color-contacts-hover-focus, #EADEED);
+    outline: 3px solid var(--color-primary-blueviolent, #6c0287);
 }
 
 .reserve__button:focus {
-    background: #FFFFFF;
-    outline: 3px solid #6C0287;
+    background: var(--primary-color, #FFFFFF);
+    outline: 3px solid var(--color-primary-blueviolent, #6c0287);
 }
 
 .reserve__button:active {
-    color: #6C0287;
+    color: var(--color-primary-blueviolent, #6c0287);
     outline: none;
 }
