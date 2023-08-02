@@ -1,0 +1,16 @@
+.hall__name_bg-image_80svibes {
+    background-image: url("../../../../img/halls/80vibes-background-main.jfif");
+}
+
+.hall__name_bg-image_starwars {
+    background-image: url("../../../../img/halls/starwars-background-main.jfif");
+}
+
+.hall__name_bg-image_wildwest {
+    background-image: url("../../../../img/halls/wildwest-background-main.jfif");
+    background-position: bottom;
+}
+
+.hall__name_bg-image_neonstyle {
+    background-image: url("../../../../img/halls/neonstyle-background-main.jfif");
+}

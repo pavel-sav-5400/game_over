@@ -1,7 +1,17 @@
 @import url("global.css");
 @import url("index.css");
+
 @import url("header/__button/header__button.css");
+@import url("header/__container/header__container.css");
+@import url("header/__link/header__link.css");
 @import url("header/header.css");
+@import url("header/__hall/header__hall.css");
+
+@import url("in-room/__container/in-room__container.css");
+@import url("in-room/__image/in-room__image.css");
+@import url("in-room/__image/_bg-image/in-room__image_bg-image.css");
+@import url("in-room/__text/in-room__text.css");
+
 @import url("navigation/__item/navigation__item.css");
 @import url("navigation/__link/navigation__link.css");
 
@@ -14,15 +24,13 @@
 @import url("reserve/__title/reserve__title.css");
 @import url("reserve/__subtitle/reserve__subtitle.css");
 @import url("reserve/__block/reserve__block.css");
-@import url("reserve/__block/_padding-left_100/reserve__block_padding-left_100.css");
-@import url("reserve/__block/_margin-bottom_40/reserve__block_margin-bottom_40.css");
 @import url("reserve/__block-entertainment/reserve__block-entertainment.css");
-@import url("reserve/__block-entertainment/_width_280/reserve__block-entertainment_width_280.css");
+@import url("reserve/__booking/reserve__booking.css");
 @import url("reserve/__button/reserve__button.css");
 @import url("reserve/__contact/reserve__contact.css");
 @import url("reserve/__date/reserve__date.css");
 @import url("reserve/__date-block/reserve__date-block.css");
-@import url("reserve/__date-block-flex/reserve__date-block-flex.css");
+@import url("reserve/__date-block-time/reserve__date-block-time.css");
 @import url("reserve/__date-block-input/reserve__date-block-input.css");
 @import url("reserve/__date-block-name/reserve__date-block-name.css");
 @import url("reserve/__entertainment-label/reserve__intertainment-label.css");
@@ -33,8 +41,14 @@
 @import url("reserve/__name/reserve__name.css");
 @import url("reserve/__text/reserve__text.css");
 
+@import url("rooms/__list/rooms__list.css");
+@import url("rooms/__item/rooms__item.css");
+@import url("rooms/__item/_bg-image/rooms__item_bg-image.css");
+
 @import url("about/__block/about__block.css");
 @import url("about/__image/about__image.css");
+@import url("about/__text/about__text.css");
+@import url("about/__text-block/about__text-block.css");
 
 @import url("blockquote/blockquote.css");
 @import url("blockquote/__text/blockquote__text.css");
@@ -57,6 +71,15 @@
 @import url("desktop/__text-new/desktop__text-new.css");
 @import url("desktop/__block-text/desktop__block-text.css");
 @import url("desktop/__button/desktop__button.css");
+
+@import url("entertainment/entertainment.css");
+@import url("entertainment/__console/entertainment__console.css");
+@import url("entertainment/__title/entertainment__title.css");
+
+@import url("hall/__description/hall__description.css");
+@import url("hall/__name/hall__name.css");
+@import url("hall/__name/_bg-image/hall__name_bg-image.css");
+@import url("hall/hall.css");
 
 @import url("halls/halls.css");
 @import url("halls/__item/halls__item.css");

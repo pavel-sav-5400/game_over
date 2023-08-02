@@ -1,0 +1,12 @@
+.rooms__item {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 380px;
+    height: 229px;
+    background-size: cover;
+    background-position: center;
+    padding: 78px 105px;
+}

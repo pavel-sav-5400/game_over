@@ -8,7 +8,7 @@
 
 .reserve__block:last-child {
     margin-bottom: 0;
-    max-width: 1080px;
     width: 100%;
     justify-content: flex-end;
+    padding-right: 100px;
 }

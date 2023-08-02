@@ -1,0 +1,11 @@
+.in-room__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+
+.in-room__text:last-child {
+    margin-bottom: 0;
+}

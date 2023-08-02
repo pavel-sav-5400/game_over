@@ -42,7 +42,7 @@
 
 <body>
   <header class="header section">
-    <div class="container flex">
+    <div class="container header__container">
       <img class="header__logo" src="img/logo.svg" alt="Логотоп GO">
       <nav class="navigation">
         <ul class="navigation__list">
@@ -192,10 +192,9 @@
 
           </fieldset>
 
-          <fieldset class="fieldset reserve__block">
-            <legend class="reserve__title">Собери набор развлечений</legend>
-            <div class="reserve__block reserve__block_padding-left_100">
-              <fieldset class="fieldset reserve__block-entertainment reserve__block-entertainment_width_280">
+          <fieldset class="fieldset reserve__block entertainment">
+            <legend class="reserve__title entertainment__title">Собери набор развлечений</legend>
+              <fieldset class="fieldset reserve__block-entertainment entertainment__console">
                 <legend class="reserve__title reserve__subtitle">Приставка:</legend>
                 <label class="reserve__entertainment-label">
                   <input class="reserve__entertainment-input" type="radio" name="console" value="PlayStation">
@@ -253,19 +252,18 @@
                   <span class="reserve__entertainment-text">VR</span>
                 </label>
               </fieldset>
-            </div>
           </fieldset>
 
-          <fieldset class="fieldset reserve__block reserve__block_margin-bottom_40">
+          <fieldset class="fieldset reserve__block reserve__booking">
             <legend class="reserve__title">Выбери дату и время</legend>
             <div class="reserve__date-block">
-              <div class="reserve__date-block-flex">
+              <div class="reserve__date-block-time">
                 <input class="reserve__date-block-input reserve__date" type="date" name="date" required>
 
                 <input class="reserve__date-block-input reserve__date" type="time" name="time" required>
               </div>
 
-              <input class="reserve__date-block-input reserve__date reserve__date_width_300" type="number" name="people"
+              <input class="reserve__date-block-input reserve__date" type="number" name="people"
                 min="3" max="30" required placeholder="Сколько человек">
 
             </div>
@@ -312,11 +310,10 @@
         </div>
 
         <div class="about__block">
-          <p class="section__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной
-            реальности в центральной части города.</p>
-          <p class="section__text section__text_margin_60">Каждый день мы стараемся создавать для вас самую лучшую
-            игровую атмосферу и радовать
-            Вас топовыми игровыми разработками со всего мира.</p>
+          <div class="about__text-block">
+            <p class="section__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+          <p class="section__text about__text">Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира.</p>
+          </div>
           <blockquote class="blockquote">
             <p class="blockquote__text"><q><span class="blockquote__text-block">GAME OVER —</span>
                 это место незабываемых впечатлений</q></p>
